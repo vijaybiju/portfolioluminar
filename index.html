@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <!-- --------css link---------- -->
+    <link rel="stylesheet" href="style.css">
+    <!-- ------Font Awesome link---- -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- --------Google fonts link----------- -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Playwrite+CU:wght@100..400&family=Reddit+Sans+Condensed:wght@200..900&family=SUSE:wght@100..800&display=swap"
+        rel="stylesheet">
+    <!-- animate style link -->
+    <!-- this animation work only when page reloaded or refresh -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- aos animation link-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="container">
+        <!-- navbar -->
+        <nav>
+            <!-- logo -->
+            <img class="logo" src="images/stock-photo-teen-boy-avatar-people-icon-character-cartoon-33260.png"
+                alt="no image">
+            <!-- links -->
+            <ul>
+                <li class="list_items"> <a class="list" href="#home">Home</a> </li>
+                <li class="list_items"> <a class="list" href="#about">About</a> </li>
+                <li class="list_items"> <a class="list" href="#skill">Skills</a> </li>
+                <li class="list_items"> <a class="list" href="#contact">Contact</a> </li>
+
+            </ul>
+        </nav>
+        <!-- home -->
+        <section id="home">
+            <!-- home content -->
+            <div class="home_content">
+                <h1 class="animate__animated animate__slideInRight" id="username"> I'm Vijay <span
+                        id="lname">Biju</span></h1>
+                <p id="userdetails">This is my official portfolio website to describe all
+                    <br>
+                    Details and Work experience in Web Development
+                </p>
+                <a id="download" href="Vijay Biju New.pdf" download>DOWNLOAD CV</a>
+            </div>
+            <!-- home image -->
+            <div class="home_img">
+                <!-- shape -->
+                <img id="shape" class="group1" src="images/IMG-20240909-WA0003.png" alt="">
+                <!-- boy -->
+                <img id="boy" class="group1" src="images/boy.png" alt="">
+
+
+
+            </div>
+
+        </section>
+        <!-- about -->
+        <section id="about">
+            <div class="sectionHead">
+                <h2 id="mainHead">About Me</h2>
+                <span id="subHead">Introduction</span>
+            </div>
+            <div class="aboutBody">
+                <div  data-aos="fade-right" class="aboutImage">
+                    <img class="img1" src="images/its me png.png" alt="No Image">
+                </div>
+                <div class="aboutContent">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, impedit! Dolorem, sequi aspernatur,
+                        voluptatibus officiis sint error nihil, blanditiis accusamus obcaecati laboriosam labore
+                        misitatibus fuga? Incidunt est necessitatibus placeat?</p>
+                    <div class="information">
+                        <div class="infobox">
+                            <i class="fa-solid fa-user"></i>
+                            <span>Vijay Biju</span>
+                        </div>
+
+                        <div class="infobox">
+                            <i class="fa-solid fa-phone"></i> <span>8111904891</span>
+                        </div>
+                        <div class="infobox">
+                            <i class="fa-solid fa-envelope"></i> <span>vijaybiju234@gmail.com</span>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- skill -->
+        <section id="skill">
+            <div class="sectionHead">
+                <h2 id="mainHead">Skills</h2>
+                <span id="subHead">My Skills</span>
+            </div>
+            <div class="skillContent">
+                <div class="progressbars">
+                    <!-- progress bars -->
+
+                    <div class="bars">
+                        <h3 class="mainhead">HTML</h3>
+                        <span class="barPercentage">89%</span>
+                        <div class="baseBar"></div>
+                        <!-- giving animation to progress bar from aos animation -->
+                        <div data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine" class="baseBar htmlBar"></div>
+                    </div>
+
+                    <div class="bars">
+                        <h3 class="mainhead">CSS</h3>
+                        <span class="barPercentage">82%</span>
+                        <div class="baseBar"></div>
+                        <!-- giving animation to progress bar from aos animation -->
+                        <div data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine"
+                         class="baseBar cssBar"></div>
+                    </div>
+
+                    <div class="bars">
+                        <h3 class="mainhead">JS</h3>
+                        <span class="barPercentage">71%</span>
+                        <div class="baseBar"></div>
+                        <!-- giving animation to progress bar from aos animation -->
+
+                        <div data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine" class="baseBar jsBar"></div>
+                    </div>
+
+                    <div class="bars">
+                        <h3 class="mainhead">REACT</h3>
+                        <span class="barPercentage">85%</span>
+                        <div class="baseBar"></div>
+                        <!-- giving animation to progress bar from aos animation -->
+                        <div data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine" class="baseBar reactBar"></div>
+                    </div>
+
+
+                </div>
+                <div  data-aos="fade-right" class="skillImage">
+                    <img width="100%" class="myskill" src="images/skill.jpg" alt="No image">
+                </div>
+            </div>
+        </section>
+        <!-- contact -->
+        <section id="contact">
+            <div class="sectionHead">
+                <h2 id="mainHead">Contacts</h2>
+                <span id="subHead">My Contacts</span>
+            </div>
+            <div class="iconCollection">
+                <!-- linkedln -->
+                <div class="icon">
+                    <a href="https://www.linkedin.com/in/vijay-biju-ab615b213/" target="_blank"><i
+                            class="fa-brands fa-linkedin brands"></i></a>
+                </div>
+                <!-- Github -->
+                <div class="icon">
+                    <a href="https://github.com/vijaybiju" target="_blank"><i
+                            class="fa-brands fa-github brands"></i></a>
+                </div>
+                <!-- twitter -->
+                <div class="icon">
+                    <a href="https://x.com/VijayBiju13" target="_blank"><i class="fa-brands fa-twitter brands"></i></a>
+                </div>
+                <!-- facebook -->
+                <div class="icon">
+                    <a href="https://www.facebook.com/jay.biju.5" target="_blank"><i
+                            class="fa-brands fa-facebook brands"></i></a>
+                </div>
+                <!-- instagram -->
+                <div class="icon">
+                    <a href="https://www.instagram.com/_vijay_biju_/" target="_blank"><i
+                            class="fa-brands fa-instagram brands"></i></a>
+                </div>
+                <!-- gmail -->
+                <div class="icon">
+                    <a href="https://www.linkedin.com/in/vijay-biju-ab615b213/" target="_blank"><i
+                            class="fa-solid fa-envelope brands"></i></a>
+                </div>
+            </div>
+
+        </section>
+        <!-- footer -->
+        <footer>
+            <p id="copyright">&copy; My portfolio website -August 2024, All right reserved to &reg; Vijay Biju</p>
+            <div class="icon upArrow">
+                <a href="#container"><i class="fa-solid fa-angle-up brands"></i></a>
+
+            </div>
+        </footer>
+    </div>
+
+
+</body>
+
+<!-- script tag for aos animation -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+</html>
